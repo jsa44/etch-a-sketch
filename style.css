@@ -1,3 +1,6 @@
+button {
+    margin-bottom: 10px;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 200px);
@@ -8,4 +11,11 @@
     border-style: solid;
     border-color: black;
     border-width: 3px;
+}
+
+.filled-box {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    background-color: black;
 }
