@@ -1,6 +1,11 @@
 button {
     margin-bottom: 10px;
 }
+.master-grid {
+    display: grid;
+    width: 800px;
+    height: 800px;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 200px);
